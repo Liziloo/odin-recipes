@@ -1,3 +1,20 @@
+body {
+    background-color: rgb(234, 241, 212);
+    text-align: center;
+}
+
 .recipe-image {
     height: 300px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+p {
+    text-align: left;
+}
+
+.recipe {
+    text-align: left;
 }
