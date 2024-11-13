@@ -1,20 +1,56 @@
 body {
-    background-color: rgb(234, 241, 212);
+    box-sizing: border-box;
+    background-color: white;
+    color: rgb(23, 93, 139);
     text-align: center;
+}
+
+#index-body {
+    padding: 0 10px;
 }
 
 .recipe-image {
     height: 300px;
 }
 
+.recipe-head {
+    margin: 20px auto;
+}
+
+.recipe-description {
+    display: inline-block;
+    vertical-align: top;
+    width: 50vw;
+    padding: 0 10px;
+}
+
+.recipe-ingredients, .recipe-steps {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+}
+
+.recipe-ingredients {
+    width: 25vw;
+}
+
+.recipe-steps {
+    width: 70vw;
+}
+
 ul {
     list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 7px 0;
 }
 
 p {
     text-align: left;
 }
 
-.recipe {
-    text-align: left;
+a {
+    color: rgb(194, 64, 64);
 }
