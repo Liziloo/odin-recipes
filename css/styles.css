@@ -5,41 +5,55 @@ body {
     text-align: center;
 }
 
+body * {
+    box-sizing: inherit;
+}
+
 #index-body {
     padding: 0 10px;
 }
 
+#recipe-head {
+    margin: 20px 0;
+    text-align: left;
+}
+
 .recipe-image {
-    height: 300px;
+    display: inline-block;
+    height: auto;
+    width: 25vw;
+    padding: 10px;
+    margin: 0 10px;
 }
 
-.recipe-head {
-    margin: 20px auto;
-}
-
-.recipe-description {
+#recipe-description {
     display: inline-block;
     vertical-align: top;
     width: 50vw;
     padding: 0 10px;
 }
 
-.recipe-ingredients, .recipe-steps {
+#recipe-ingredients, #recipe-steps {
     display: inline-block;
     vertical-align: top;
     text-align: left;
+    padding: 0 5px;
 }
 
-.recipe-ingredients {
+#recipe-ingredients {
     width: 25vw;
 }
 
-.recipe-steps {
+#recipe-steps {
     width: 70vw;
 }
 
 ul {
     list-style-type: none;
+    padding: 0;
+}
+
+ol {
     padding: 0;
 }
 
